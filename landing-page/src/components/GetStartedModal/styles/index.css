@@ -1,0 +1,113 @@
+#get-started-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(32, 14, 100, 0.9); }
+  #get-started-modal #get-started-main-content {
+    position: absolute;
+    display: flex;
+    flex-flow: column nowrap;
+    background: #6a40e4; }
+    #get-started-modal #get-started-main-content #get-started-close {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer; }
+    #get-started-modal #get-started-main-content #get-started-modal-header {
+      font-family: "Poppins", sans-serif;
+      line-height: 40px;
+      letter-spacing: -0.06em;
+      padding-top: 2.5em;
+      padding-left: 2.5em; }
+      #get-started-modal #get-started-main-content #get-started-modal-header #get-started-title {
+        color: #ffffff;
+        font-size: 34px;
+        font-weight: 400; }
+      #get-started-modal #get-started-main-content #get-started-modal-header #just-login-title {
+        color: #ffd74f;
+        font-size: 38px;
+        font-weight: 700; }
+    #get-started-modal #get-started-main-content #get-started-form {
+      font-family: "Open Sans", sans-serif;
+      align-items: center;
+      display: flex;
+      flex-flow: column nowrap;
+      align-self: center;
+      justify-content: center;
+      height: 68%;
+      width: 85%; }
+      #get-started-modal #get-started-main-content #get-started-form .get-started-input-wrapper {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        color: #fff;
+        margin-bottom: 1.4em; }
+        #get-started-modal #get-started-main-content #get-started-form .get-started-input-wrapper .get-started-form-input-label {
+          margin-left: 0.5em;
+          margin-bottom: 0.6em; }
+        #get-started-modal #get-started-main-content #get-started-form .get-started-input-wrapper .get-started-input {
+          background: rgba(255, 255, 255, 0.24);
+          border: 1px solid #ffffff;
+          box-sizing: border-box;
+          border-radius: 4px;
+          padding: 1.3em 0 1.3em 1.5em;
+          color: #fff; }
+        #get-started-modal #get-started-main-content #get-started-form .get-started-input-wrapper #show-hide-password {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          padding: 1em;
+          right: 0.5em;
+          top: calc(50% - 0.7em);
+          background: none;
+          border: none;
+          cursor: pointer; }
+      #get-started-modal #get-started-main-content #get-started-form #get-started-login-btn {
+        background-color: #ffd74f;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer; }
+
+@media only screen and (min-width: 1000px) {
+  #get-started-modal #get-started-main-content {
+    background: #6a40e4;
+    width: 525px;
+    height: 479px; }
+    #get-started-modal #get-started-main-content #get-started-close {
+      right: -1.3em;
+      top: -1.1em;
+      padding: 0.7em;
+      background-color: rgba(0, 0, 0, 0.6); }
+    #get-started-modal #get-started-main-content #get-started-form #get-started-login-btn {
+      align-self: flex-end;
+      padding: 1em 3.5em; } }
+@media only screen and (max-width: 999px) {
+  #get-started-modal {
+    background: #6a40e4;
+    overflow: hidden; }
+    #get-started-modal #get-started-main-content {
+      height: 100%;
+      width: 100%; }
+      #get-started-modal #get-started-main-content #get-started-close {
+        right: 1.4em;
+        top: 3em;
+        padding: 0.7em;
+        background: none; }
+      #get-started-modal #get-started-main-content #get-started-form {
+        height: 60%; }
+        #get-started-modal #get-started-main-content #get-started-form .get-started-input-wrapper #show-hide-password {
+          top: calc(50% - 0.7em); }
+        #get-started-modal #get-started-main-content #get-started-form #get-started-login-btn {
+          width: 100%;
+          padding: 1em 0; } }
+
+/*# sourceMappingURL=index.css.map */

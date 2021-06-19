@@ -1,0 +1,69 @@
+Day One - 6/16/2021
+
+1:51PM - 2:16PM
+
+Setting up the project
+Looking at the prototype to have some idea of how can I do that.
+
+
+2:24PM - 2:49PM
+
+Adding comments to make the process easier.
+
+
+2:55PM - 3:20PM
+
+Making the header
+Header finished!
+
+3:48 - 4:13PM
+
+Building the welcome message.
+
+
+6:19PM - 6:44PM
+
+Welcome container finished!
+I just have to remove repeated code in the media queries.
+
+
+Day Two - 06/17/2021
+
+2:01PM - 2:08PM
+
+Removing repeated the code of my media queries.
+DONE! - 2:05PM
+
+Now I can start to build the footer.
+
+
+2:41PM - 3:06PM
+Filter Done - 2:53PM
+Let's start the grid
+
+
+6:16PM - 6:41PM
+
+I forgot to track what I was doing
+
+
+Day Three - 06/18/2021
+
+1:52PM - 2:14PM
+
+I'm going to finish the courses grid
+
+
+2:20PM - 2:45PM
+
+I'm doing the infinite scroll stuff
+
+
+2:51PM - 3:16PM
+
+I'm doing the middle container of each course item.
+
+
+3:29PM - 4:04PM
+
+The project is finished, I only need to fix the height bug.

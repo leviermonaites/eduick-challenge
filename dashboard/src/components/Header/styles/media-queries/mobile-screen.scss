@@ -1,0 +1,24 @@
+@media only screen and (max-width: 999px) {
+  #header {
+    padding: 0.5em 0em;
+
+    #inner-container-header {
+      width: 95%;
+
+      #left-side-header {
+        padding-left: 2em;
+      }
+
+      #right-side-header {
+        #toggle-dropdown {
+          background: none;
+          cursor: pointer;
+        }
+
+        #user-photo-wrapper {
+          margin-left: 0.1em;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+#dashboard {
+  display: flex;
+  flex-flow: column nowrap;
+  background: #F1F5F7; }
+  #dashboard #main-section-dashboard {
+    align-self: center;
+    display: flex;
+    flex-flow: column nowrap; }
+
+@media only screen and (min-width: 1000px) {
+  #dashboard {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 100vh; }
+    #dashboard #main-section-dashboard {
+      width: 70%; } }
+@media only screen and (max-width: 1000px) {
+  #dashboard {
+    display: flex;
+    flex-flow: column nowrap;
+    overflow-y: hidden;
+    height: 100vh;
+    position: relative; }
+    #dashboard #main-section-dashboard {
+      padding-top: 2em;
+      height: 100%;
+      width: 90%;
+      gap: 1em;
+      padding-bottom: 1em;
+      overflow-y: hidden; } }
+
+/*# sourceMappingURL=index.css.map */

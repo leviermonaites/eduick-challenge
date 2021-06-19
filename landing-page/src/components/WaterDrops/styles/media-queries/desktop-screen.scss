@@ -1,0 +1,109 @@
+@media only screen and (max-width: 1850px) {
+  .water-drops-container {
+    height: 100%;
+    
+    .water-drop {
+      max-height: 767px;
+    }
+  }
+  
+  .left-side-water-drops {
+    width: 100%;
+    
+    .light-water-drop {
+      bottom: -8em;
+      left: 3em;
+    }
+
+    .purple-water-drop {
+      left: -3.1em;
+      bottom: -13em;
+    }
+
+    #student-writing-water-drop {
+      bottom: -6em;
+      left: 8em;
+    }
+
+    #yellow-water-drop {
+      left: 22em;
+      bottom: 0em;
+    }
+
+    #rectangle-circles {
+      position: absolute;
+      right: 4.5em;
+      bottom: 8.5em;
+      opacity: 0.5;
+    }
+  }
+
+  .right-side-water-drops {
+    width: 35%;
+    .light-water-drop {
+      bottom: 7em;
+      right: -15em;
+    }
+
+    .purple-water-drop {
+      right: -21em;
+      bottom: 2em;
+    }
+  }
+}
+
+@media only screen and (min-width: 1850px) {
+  .water-drops-container {
+    height: 100%;
+
+    .water-drop {
+      position: absolute;
+      max-height: 767px;
+    }
+  }
+
+  .left-side-water-drops {
+    width: 100%;
+
+    .light-water-drop {
+      bottom: -10em;
+      left: -5em;
+    }
+
+    .purple-water-drop {
+      left: -11.1em;
+      bottom: -15em;
+    }
+
+    #student-writing-water-drop {
+      bottom: -8em;
+      left: 0em;
+    }
+
+    #yellow-water-drop {
+      left: 18em;
+      bottom: -2em;
+    }
+
+    #rectangle-circles {
+      position: absolute;
+      right: 4.5em;
+      bottom: 3.5em;
+      opacity: 0.5;
+    }
+  }
+
+  .right-side-water-drops {
+    width: 80%;
+    .light-water-drop {
+      bottom: -1em;
+      right: 4em;
+    }
+
+    .purple-water-drop {
+      left: -4.4em;
+      bottom: -6em;
+    }
+  }
+}
+

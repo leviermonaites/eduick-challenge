@@ -1,0 +1,17 @@
+#landing-page {
+  display: flex;
+  background: linear-gradient(180deg, #7A57FD 0%, #6135D7 100%);
+  box-shadow: 4px 2px 14px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+
+  #landing-page-footer {
+    background: #200e64;
+    flex-grow: 5;
+    width: 100%;
+    box-shadow: 4px 2px 14px rgba(0, 0, 0, 0.05);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+}
+
+@import './media-queries/desktop-screen.scss';
+@import './media-queries/mobile-screen.scss';

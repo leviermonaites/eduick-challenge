@@ -1,0 +1,24 @@
+@media only screen and (min-width: 1000px) {
+  #welcome-message-container {
+    padding: 2em 0 2em 0;
+
+    #yellow-water-drops {
+      left: -3em;
+      top: 2.5em;
+    }
+
+    #welcome-message-content {
+      justify-content: space-between;
+      width: 80%;
+
+      #welcome-message-left-side {
+        flex-flow: column nowrap;
+        padding-top: 1em;
+
+        #welcome-message-text {
+          width: 85%;
+        }
+      }
+    }
+  }
+}

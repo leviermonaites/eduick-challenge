@@ -1,0 +1,33 @@
+@media only screen and (max-width: 999px) {
+  #get-started-modal {
+    background: #6a40e4;
+    overflow: hidden;
+
+    #get-started-main-content {
+      height: 100%;
+      width: 100%;
+
+      // I don't like to make all these accounts, but in this case, I think to do the same thing in a better way, I'd change a lot of things on my code.
+      #get-started-close {
+        right: 1.4em;
+        top: 3em;
+        padding: 0.7em;
+        background: none;
+      }
+
+      #get-started-form {
+        height: 60%;
+        .get-started-input-wrapper {
+          #show-hide-password {
+            top: calc(50% - 0.7em);
+          }
+        }
+
+        #get-started-login-btn {
+          width: 100%;
+          padding: 1em 0;
+        }
+      }
+    }
+  }
+}

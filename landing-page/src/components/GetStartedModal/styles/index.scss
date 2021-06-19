@@ -1,0 +1,111 @@
+@import "../../../styles/variables.scss";
+
+#get-started-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(32, 14, 100, 0.9);
+
+  #get-started-main-content {
+    position: absolute;
+    display: flex;
+    flex-flow: column nowrap;
+    background: #6a40e4;
+
+    #get-started-close {
+      position: absolute;
+
+      display: flex;
+      align-items: center;
+
+      border: none;
+      border-radius: 50%;
+
+      cursor: pointer;
+    }
+
+    #get-started-modal-header {
+      font-family: "Poppins", sans-serif;
+      line-height: 40px;
+      letter-spacing: -0.06em;
+      
+      padding-top: 2.5em;
+      padding-left: 2.5em;
+
+      #get-started-title {
+        color: #ffffff;
+        font-size: 34px;
+        font-weight: 400;
+      }
+
+      #just-login-title {
+        color: $tertiaryColor;
+        font-size: 38px;
+        font-weight: 700;
+      }
+    }
+
+    #get-started-form {
+      font-family: "Open Sans", sans-serif;
+      align-items: center;
+      display: flex;
+      flex-flow: column nowrap;
+      align-self: center;
+      justify-content: center;
+      height: 68%;
+      width: 85%;
+
+      .get-started-input-wrapper {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        color: #fff;
+        margin-bottom: 1.4em;
+
+        .get-started-form-input-label {
+          margin-left: 0.5em;
+          margin-bottom: 0.6em;
+        }
+
+        .get-started-input {
+          background: rgba(255, 255, 255, 0.24);
+          border: 1px solid #ffffff;
+          box-sizing: border-box;
+          border-radius: 4px;
+          padding: 1.3em 0 1.3em 1.5em;
+          color: #fff;
+        }
+
+
+        #show-hide-password {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          padding: 1em;
+          right: 0.5em;
+          top: calc(50% - 0.7em);
+          background: none;
+          border: none;
+          cursor: pointer;
+        }
+      }
+
+      #get-started-login-btn {
+        background-color: $tertiaryColor;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@import './media-queries/desktop-screen.scss';
+@import './media-queries/mobile-screen.scss';

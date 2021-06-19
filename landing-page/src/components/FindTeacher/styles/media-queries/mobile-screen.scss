@@ -1,0 +1,11 @@
+@media only screen and (max-width: 1050px) {
+  #find-teacher-container {
+    justify-content: space-evenly;
+  }
+}
+
+@media only screen and (max-height: 720px) {
+  #find-teacher-container {
+    height: 75%;
+  }
+}

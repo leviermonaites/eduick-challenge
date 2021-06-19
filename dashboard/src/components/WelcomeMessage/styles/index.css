@@ -1,0 +1,56 @@
+#welcome-message-container {
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #welcome-message-container #yellow-water-drops {
+    position: absolute; }
+  #welcome-message-container #welcome-message-content {
+    display: flex; }
+    #welcome-message-container #welcome-message-content #welcome-message-left-side {
+      display: flex; }
+      #welcome-message-container #welcome-message-content #welcome-message-left-side #welcome-message-title {
+        font-weight: 400;
+        color: #200e64;
+        font-size: 21px;
+        line-height: 33.6px;
+        margin-bottom: 0.7em; }
+        #welcome-message-container #welcome-message-content #welcome-message-left-side #welcome-message-title #student-highlight {
+          font-family: "Poppins", sans-serif; }
+      #welcome-message-container #welcome-message-content #welcome-message-left-side #welcome-message-text {
+        font-size: 14px;
+        line-height: 22.4px;
+        color: #343434; }
+
+@media only screen and (min-width: 1000px) {
+  #welcome-message-container {
+    padding: 2em 0 2em 0; }
+    #welcome-message-container #yellow-water-drops {
+      left: -3em;
+      top: 2.5em; }
+    #welcome-message-container #welcome-message-content {
+      justify-content: space-between;
+      width: 80%; }
+      #welcome-message-container #welcome-message-content #welcome-message-left-side {
+        flex-flow: column nowrap;
+        padding-top: 1em; }
+        #welcome-message-container #welcome-message-content #welcome-message-left-side #welcome-message-text {
+          width: 85%; } }
+@media only screen and (max-width: 1000px) {
+  #welcome-message-container {
+    padding: 2em 0 2em 0; }
+    #welcome-message-container #yellow-water-drops {
+      height: 70px;
+      right: 1.5em;
+      top: -0.5em; }
+    #welcome-message-container #welcome-message-content {
+      justify-content: center; }
+      #welcome-message-container #welcome-message-content #welcome-message-left-side {
+        flex-flow: column nowrap;
+        width: 85%; }
+        #welcome-message-container #welcome-message-content #welcome-message-left-side #welcome-message-title {
+          align-self: flex-start; } }
+
+/*# sourceMappingURL=index.css.map */

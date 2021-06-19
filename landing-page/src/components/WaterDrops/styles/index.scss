@@ -1,0 +1,11 @@
+.water-drops-container {
+  display: flex;
+  position: relative;
+
+  .water-drop {
+    position: absolute;
+  }
+}
+
+@import './media-queries/desktop-screen.scss';
+@import './media-queries/mobile-screen.scss';

@@ -1,0 +1,15 @@
+#dashboard {
+  display: flex;
+  flex-flow: column nowrap;
+  
+  background: #F1F5F7;
+  
+  #main-section-dashboard {
+    align-self: center;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+}
+
+@import './media-queries/desktop-screen.scss';
+@import './media-queries/mobile-screen.scss';

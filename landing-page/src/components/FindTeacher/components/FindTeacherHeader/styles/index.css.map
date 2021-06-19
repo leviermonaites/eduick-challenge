@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,oBAAqB;EACnB,WAAW,EAAE,qBAAqB;EAClC,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,OAAO;EAEvB,8CAA0B;IACxB,KAAK,EAAE,IAAI;EAGb,yCAAqB;IACnB,KAAK,EAAE,OAAO;;ACVlB,0CAA2C;EACzC,oBAAqB;IACnB,SAAS,EAAE,GAAG;IAEd,8CAA0B;MACxB,WAAW,EAAE,GAAG;ACLtB,0CAA2C;EACzC,oBAAqB;IACnB,SAAS,EAAE,KAAK;IAChB,WAAW,EAAE,IAAI;IAEjB;6CACqB;MACnB,WAAW,EAAE,GAAG",
+"sources": ["index.scss","media-queries/desktop-screen.scss","media-queries/mobile-screen.scss"],
+"names": [],
+"file": "index.css"
+}

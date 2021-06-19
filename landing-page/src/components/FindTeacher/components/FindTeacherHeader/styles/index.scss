@@ -1,0 +1,16 @@
+#find-teacher-header {
+  font-family: "Poppins", sans-serif;
+  line-height: 57px;
+  letter-spacing: -0.06em;
+
+  #find-teacher-first-title {
+    color: #fff;
+  }
+
+  #best-teacher-header {
+    color: #f0dfb4;
+  }
+}
+
+@import './media-queries/desktop-screen.scss';
+@import './media-queries/mobile-screen.scss';

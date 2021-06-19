@@ -1,0 +1,21 @@
+@media only screen and (max-width: 1850px) {
+  #find-teacher-container {
+    justify-content: space-between;
+
+    #find-teacher-search-description {
+      width: 83%;
+      line-height: 31px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1851px) {
+  #find-teacher-container {
+    justify-content: space-between;
+
+    #find-teacher-search-description {
+      width: 92%;
+      line-height: 31px;
+    }
+  }
+}

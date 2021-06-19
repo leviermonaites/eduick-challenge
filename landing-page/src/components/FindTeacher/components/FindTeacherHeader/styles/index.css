@@ -1,0 +1,23 @@
+#find-teacher-header {
+  font-family: "Poppins", sans-serif;
+  line-height: 57px;
+  letter-spacing: -0.06em; }
+  #find-teacher-header #find-teacher-first-title {
+    color: #fff; }
+  #find-teacher-header #best-teacher-header {
+    color: #f0dfb4; }
+
+@media only screen and (min-width: 1050px) {
+  #find-teacher-header {
+    font-size: 3em; }
+    #find-teacher-header #find-teacher-first-title {
+      font-weight: 400; } }
+@media only screen and (max-width: 1050px) {
+  #find-teacher-header {
+    font-size: 2.5em;
+    line-height: 45px; }
+    #find-teacher-header #find-teacher-first-title,
+    #find-teacher-header #best-teacher-header {
+      font-weight: 400; } }
+
+/*# sourceMappingURL=index.css.map */

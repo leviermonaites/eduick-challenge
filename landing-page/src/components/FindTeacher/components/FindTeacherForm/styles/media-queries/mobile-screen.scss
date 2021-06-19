@@ -1,0 +1,25 @@
+@media only screen and (max-width: 1050px) {
+  #find-teacher-form {
+    #find-teacher-search-input {
+      font-size: 14px;
+    }
+
+    #find-teacher-bottom-buttons {
+      flex-flow: column nowrap;
+      justify-content: space-between;
+
+      #find-teacher-checkboxes-container {
+        margin-bottom: 0.9em;
+        .find-teacher-checkbox-label {
+          font-size: 10px;
+          width: 47%;
+          padding: 1.8em;
+        }
+      }
+
+      #find-teacher-search-button {
+        padding: 1.5em;
+      }
+    }
+  }
+}

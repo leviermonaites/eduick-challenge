@@ -1,0 +1,79 @@
+@import '../../../../../styles/variables.scss';
+
+#find-teacher-form {
+  #find-teacher-search-input {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid $borderColor;
+    background: $primaryColor;
+    padding: 1em 0 1em 2em;
+    color: #fff;
+    margin-bottom: 2em;
+
+    &::placeholder {
+      color: #fff;
+    }
+  }
+}
+
+#find-teacher-bottom-buttons {
+  display: flex;
+
+  #find-teacher-checkboxes-container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+
+    .find-teacher-checkbox-label {
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 700;
+
+      padding: 1.1em;
+      border: 1px solid $borderColor;
+      border-radius: 4px;
+      box-sizing: border-box;
+      color: #fff;
+
+      &:checked {
+        background-color: #7955E8;
+      }
+
+      .find-teacher-checkbox {
+        width: 1.3em;
+        height: 1.3em;
+        background-color: white;
+        border-radius: 50%;
+        vertical-align: middle;
+        border: 1px solid #ddd;
+        -webkit-appearance: none;
+        margin-right: 1em;
+        cursor: pointer;
+
+        &:checked {
+          background-color: $tertiaryColor;
+          background-image: url('../../../../../assets/images/checked-circle.svg');
+          background-repeat: no-repeat;
+          background-position: 30% 50%;
+        }
+
+      }
+    }
+  }
+
+  #find-teacher-search-button {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    flex-grow: 5;
+    background: $tertiaryColor;
+    border-radius: 4px;
+    border: 0px;
+    color: #744ff4;
+    cursor: pointer;
+  }
+}
+
+@import './media-queries/desktop-screen.scss';
+@import './media-queries/mobile-screen.scss';

@@ -1,0 +1,31 @@
+#find-teacher-container {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 55%;
+  width: 90%; }
+  #find-teacher-container #find-teacher-search-description {
+    color: #fff;
+    line-height: 191.68%;
+    font-weight: normal; }
+
+@media only screen and (max-width: 1850px) {
+  #find-teacher-container {
+    justify-content: space-between; }
+    #find-teacher-container #find-teacher-search-description {
+      width: 83%;
+      line-height: 31px; } }
+@media only screen and (min-width: 1851px) {
+  #find-teacher-container {
+    justify-content: space-between; }
+    #find-teacher-container #find-teacher-search-description {
+      width: 92%;
+      line-height: 31px; } }
+@media only screen and (max-width: 1050px) {
+  #find-teacher-container {
+    justify-content: space-evenly; } }
+@media only screen and (max-height: 720px) {
+  #find-teacher-container {
+    height: 75%; } }
+
+/*# sourceMappingURL=index.css.map */

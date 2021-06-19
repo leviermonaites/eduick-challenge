@@ -1,0 +1,24 @@
+@media only screen and (min-width: 1000px) {
+  #get-started-modal {
+    #get-started-main-content {
+      background: #6a40e4;
+      width: 525px;
+      height: 479px;
+  
+      #get-started-close {
+        right: -1.3em;
+        top: -1.1em;
+        padding: 0.7em;
+    
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+    
+      #get-started-form {
+        #get-started-login-btn {
+          align-self: flex-end;
+          padding: 1em 3.5em;
+        }
+      }
+    }
+  }
+}

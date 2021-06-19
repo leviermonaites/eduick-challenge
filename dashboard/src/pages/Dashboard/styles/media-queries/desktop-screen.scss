@@ -1,0 +1,12 @@
+@media only screen and (min-width: 1000px) {
+  #dashboard {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 100vh;
+
+    #main-section-dashboard {
+      width: 70%;
+    }
+  }
+}

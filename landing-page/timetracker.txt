@@ -1,0 +1,140 @@
+Day Two - 06/09/2021
+
+To Do:
+Componentize the water drops images - Done
+Mount the center of the Landing Page, with the three components required - Doing.
+
+2:08PM - 2:31PM
+So far, I've solved the problem with the distribution of the content in the landing page.
+Now, I have to finish the water drops component
+
+2:41PM - 3:05PM
+I'm improving the way the code was written
+
+3:26PM - 3:51PM
+Finished the placement of the left side of the landing page
+
+6:34PM - 6:59PM
+I've got to finish the right side of the landing page.
+Just have to correct little mistakes
+DONE!!
+
+Now I can work on the center part.
+First let's write all the text with right elements, and create the buttons, inputs and checkboxes.
+
+END OF DAY!
+To do tomorrow:
+I've got to create variables to set apart things like color that I'm using all the time!
+I've got to implement the little water drop that appears at the right side of the image with that girl studying.
+I've got to create the header (I already made the download of the logo).
+
+Good night dude! You made a har... clever work today!
+
+Day Three - 06/10/2021
+
+1:17PM - 1:37PM
+
+Let's prioritize the header and the variables setting for now.
+
+1:44PM - 2:08PM
+
+I've done the variables setting stuff.
+Now I'm componentizing all the things that I've done so far so that when I get to deal with states, the code doesn't get too long.
+
+I've finished the componentizing stuff.
+Now I've begun the Header component.
+Now I have to limit the width of the header, and pull it to the very right.
+
+2:15PM - 2:40PM
+
+I'm making the css more sustainable, just changing some rules to make more use of the concept of "flex".
+I have to adjust the size of the images, and place them better.
+
+5:22PM - 5:47PM
+
+CSS FINISHED!
+Let's go to the header, finally!
+
+5:57PM - 6:22PM
+
+Large screen view finished!
+Tomorrow, let's begin the mobile-screen view.
+
+
+Day Four - 06/11/2021
+
+1:37PM - 2:00PM
+
+I've got to set up the media queries files to build the mobile screen view!
+
+2:10PM - 2:35PM
+
+I've set up all the files and folders.
+Now, I'll actually begin to make the mobile screen
+
+3:43PM - 4:08PM
+
+I have to correct the FindTeacher component's size distribution among the content
+
+4:13PM - 4:38PM
+
+I've finished the FindTeacher component's stuff.
+I've begun to insert the water drops into the mobile screen.
+Tomorrow I'll finish that, and create the modal when the user clicks the hamburger button.
+
+Day Five - 06/12/2021
+
+7:23AM - 7:47AM
+
+I've finished the mobile screen stuff
+I forgot to track the time in the rest of the day.
+
+
+Day Seven - 06/14/2021
+
+After taking the sunday to rest, let's get back into it!
+
+2:58PM - 3:20PM
+
+Let's just work on some little things, to let the code better and jump into another thing!
+I've corrected the little things that were necesssary to be corrected.
+I've built some parts of the modal, now I just need to finish that!
+
+
+3:44PM - 4:08PM
+
+I've built most part of the modal, I just need to solve a little issue to put the center part on its proper position.
+
+
+4:13PM - 4:38PM
+
+I've finished the modal, now I'm just reviewing stuff, and as I soon as I finish, I'll begin to work on the second part of the project
+
+
+4:50PM - 5:15PM
+
+I've begun the get started modal
+
+
+5:20PM - 5:45PM
+
+I'm setting up the Get Started Modal.
+Let's try to finish that one until the first 25/30 min session of tomorrow.
+
+
+Day Eight - 06/15/2021
+
+1:54PM - 2:18PM
+
+I'm working on the form of the Get Started's Modal
+
+
+2:300PM - 2:55PM
+
+I need to implement the functionality to show or not the password that the user typed.
+
+
+3:14PM - 4:12PM
+
+Everything is finished.
+Let's jump into the dashboard page now.

@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1000px) {
+  #dashboard {
+    display: flex;
+    flex-flow: column nowrap;
+    overflow-y: hidden;
+    height: 100vh;
+    position: relative;
+    
+    #main-section-dashboard {
+      padding-top: 2em;
+
+      height: 100%;
+      width: 90%;
+      gap: 1em;
+      padding-bottom: 1em;
+      overflow-y: hidden;
+    }
+  }
+}

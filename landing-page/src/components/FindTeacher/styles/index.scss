@@ -1,0 +1,16 @@
+#find-teacher-container {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 55%;
+  width: 90%;
+
+  #find-teacher-search-description {
+    color: #fff;
+    line-height: 191.68%;
+    font-weight: normal;
+  }
+}
+
+@import './media-queries/desktop-screen.scss';
+@import './media-queries/mobile-screen.scss';

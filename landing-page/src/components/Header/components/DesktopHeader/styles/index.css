@@ -1,0 +1,46 @@
+#landing-page-header {
+  align-self: center;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center; }
+  #landing-page-header #left-side-header {
+    display: flex;
+    width: 40%;
+    justify-content: space-between; }
+    #landing-page-header #left-side-header #eduick-logo {
+      height: 23px; }
+    #landing-page-header #left-side-header #header-links {
+      display: flex;
+      justify-content: space-between;
+      width: 40%; }
+      #landing-page-header #left-side-header #header-links .header-link {
+        font-family: "Open Sans", sans-serif;
+        color: #fff;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: -0.02em; }
+  #landing-page-header #get-started {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #6f48ec;
+    background: #ffd74f;
+    box-shadow: 1px 3px 11px -3px rgba(255, 231, 150, 0.45);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0.7em 3em;
+    margin-right: 12em; }
+
+@media only screen and (max-width: 1440px) {
+  #landing-page-header {
+    width: 80%; }
+    #landing-page-header #left-side-header {
+      align-items: center; } }
+@media only screen and (min-width: 1441px) {
+  #landing-page-header {
+    width: 70%; } }
+
+/*# sourceMappingURL=index.css.map */

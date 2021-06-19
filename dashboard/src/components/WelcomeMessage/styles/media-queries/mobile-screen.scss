@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1000px) {
+  #welcome-message-container {
+    padding: 2em 0 2em 0;
+
+    #yellow-water-drops {
+      height: 70px;
+      right: 1.5em;
+      top: -0.5em;
+    }
+
+    #welcome-message-content {
+      justify-content: center;
+
+      #welcome-message-left-side {
+        flex-flow: column nowrap;
+        width: 85%;
+
+        #welcome-message-title {
+          align-self: flex-start;
+        }
+      }
+    }
+  }
+}
