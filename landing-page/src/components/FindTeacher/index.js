@@ -10,8 +10,6 @@ const FindTeacher = ({ screenType }) => {
   const handleChange = (prop, value) =>
     dispatch({ type: "HANDLE_CHANGE", payload: { prop, value } });
 
-  console.log(screenType);
-
   const handleSubmit = (e) => e.preventDefault();
 
   return (

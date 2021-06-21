@@ -27,8 +27,6 @@ const LandingPage = () => {
 
   const handleCloseGetStarted = () => setShowGetStartedModal(false);
 
-  console.log(screenType);
-
   useEffect(() => {
     if (window.outerWidth <= 1050) setScreenType("mobile");
     else if (window.outerWidth <= 1440 || window.outerWidth < 1850)
