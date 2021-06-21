@@ -10,3 +10,5 @@ After that you can run the 'npm start' script on the desired folder and voila, t
 
 Well, if it was a real project, surely I'd do it, but to let everything clearly understandable, I decided to do it, if you think the other way around would be better for you, please let me know!
 
+OBS: I'm assuming you have node installed, if you haven't, the following link will help you:
+https://nodejs.org/en/download/
